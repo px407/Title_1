@@ -1,0 +1,45 @@
+body { background-color:hsl(212, 45%, 89%);}
+
+.rectangle /*the whole div*/ {
+    height: 525px;
+    width: 350px;
+    border-radius: 15px 15px 15px 15px;
+    background-color: hsl(0, 0%, 100%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+    
+}
+
+#dag /*image*/ { 
+    height: 315px;
+    width: 315px;
+    border-radius: 15px 15px 15px 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    margin-top: 1em;
+    
+    
+}
+
+.rectangle h2 {
+    font-family: "Outfit";
+    color:hsl(218, 44%, 22%);
+    width: 400px;
+    text-align: center;
+    margin-left: -6.25%;
+}
+
+.rectangle p {
+    font-family: "Outfit";
+    font-size: 15px;
+    color:hsl(220, 15%, 55%);
+    width: 400px;
+    text-align: center;
+    margin-left: -6.25%;
+}
+
